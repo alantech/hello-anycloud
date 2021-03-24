@@ -1,0 +1,7 @@
+{
+  "staging": [{
+    "credentials": "aws-personal",
+    "region": "us-west-1",
+    "vmType": "t3.medium"
+  }]
+}
