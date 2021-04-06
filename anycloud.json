@@ -1,6 +1,6 @@
 {
   "staging": [{
-    "credentialProfile": "aws-personal",
+    "credentialsName": "aws-personal",
     "region": "us-west-1",
     "vmType": "t3.medium"
   }]
