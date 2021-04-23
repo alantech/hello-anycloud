@@ -1,6 +1,6 @@
 {
   "staging": [{
-    "credentialsName": "aws-personal",
+    "credentialsName": "mystartup-aws",
     "region": "us-west-1",
     "vmType": "t3.medium"
   }]
