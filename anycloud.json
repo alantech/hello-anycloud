@@ -1,37 +1,11 @@
 {
   "staging": [
     {
-      "credentialsName": "aws-alantech",
+      "credentialsName": "mystartup-aws",
       "region": "us-west-1",
-      "vmType": "t3.medium"
-    }
-  ],
-  "aws-us": [
-    {
-      "credentialsName": "aws-alantech",
-      "region": "us-west-1",
-      "vmType": "t3.medium"
-    }
-  ],
-  "gcp-us": [
-    {
-      "credentialsName": "gcp-alantech",
-      "region": "us-west1-c",
-      "vmType": "e2-medium"
-    }
-  ],
-  "gcp-eu": [
-    {
-      "credentialsName": "gcp-alantech",
-      "region": "europe-west1-c",
-      "vmType": "e2-medium"
-    }
-  ],
-  "azure-us": [
-    {
-      "credentialsName": "azure-alantech",
-      "region": "westus2",
-      "vmType": "Standard_B1ls"
+      "vmType": "m4.large",
+      "minReplicas": 1,
+      "maxReplicas": null
     }
   ]
 }
