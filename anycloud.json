@@ -2,10 +2,19 @@
   "staging": [
     {
       "credentialsName": "mystartup-aws",
-      "region": "us-west-1",
-      "vmType": "m4.large",
-      "minReplicas": 1,
-      "maxReplicas": null
+      "region": "us-west-1"
+    }
+  ],
+  "staging-azure": [
+    {
+      "credentialsName": "mystartup-azure",
+      "region": "eastus"
+    }
+  ],
+  "staging-gcp": [
+    {
+      "credentialsName": "mystartup-gcp",
+      "region": "us-east4-a"
     }
   ]
 }
